@@ -1,0 +1,177 @@
+
+/* ========== Tab View ============= */
+@media (min-width: 600px) and (max-width: 768px) 
+{
+    header  
+    {
+      background: red;
+    }
+
+}
+
+
+/* Mobile view */
+@media (min-width: 200px) and (max-width: 600px) 
+{
+
+    header
+    {
+      padding: 5px 30px;      
+    }
+
+    header nav #links
+    {
+      display: none;
+    }
+
+    header nav .menu-icon
+    {
+      display: flex;
+    }
+/* 
+    .section1
+    {
+      min-height: 80vh;
+    } */
+
+    .section1 .wrapper
+    {
+      min-height: 80vh;
+    }
+
+    .section1 .wrapper .right
+    {
+        display: none;
+    }
+
+    
+    .section1 .wrapper .left
+    {
+       padding: 0px 30px;
+        width: 100vw;
+    }
+
+    .section1 .wrapper .left h2
+    {
+      font-size: 1.7rem;
+    }
+    
+    .section1 .wrapper .left span 
+    {
+      font-size: 1rem;
+    }
+
+    .section1 .wrapper .left p 
+    {
+      font-size: 0.7rem;
+      margin: 5px 0;
+    }
+    
+    .section1 .wrapper .left .btn
+    {
+      font-size: 0.7rem;
+      margin: 15px 4px;
+    }
+
+    /* Section 2 statrts here */
+    .section2 .wrapper
+    {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .section2 .wrapper .left{
+      width: 80vw;
+      border-radius: 10px;
+    }
+
+    .section2 .wrapper .right{
+      width: 80vw;
+      border-radius: 10px;
+    }
+
+    .section2 .interest div
+    {
+      padding-top: 3px;
+    }
+
+    /* Third section starts here */
+    .section3 .wrapper
+    {
+      min-height: 100vh;
+    }
+
+    .section3 .wrapper .skills
+    {
+      flex-direction: column;
+    }
+
+    
+    .section3 .wrapper .left
+    {
+      width: 80vw;
+    }
+
+    .section3 .wrapper .right
+    {
+      width: 80vw;
+    }
+
+    
+   .section3 .wrapper .progressbar
+   {
+      padding: 10px 0px;
+   }
+
+   /*Section 4 starts here  */
+    
+  .section4 .inner-wrapper .item::before
+  {
+    left: 13.9%;
+  }
+
+  .section4 .inner-wrapper .item2::before
+  {
+    left: 13.9%;
+  }
+
+
+  .section4 .inner-wrapper
+  {
+    flex-direction: column;
+  }
+
+  .section4 .wrapper .left
+  {
+    margin-right: 0px;
+    width: 95%;
+  }
+
+  .section4 .wrapper .right
+  {
+    width: 95%;
+  }
+
+  /* section 5 starts here */
+  .section5 .wrapper
+  {
+     /* flex-direction: column; */
+  }
+
+  .section5 .wrapper .card
+  {
+    width: 80%;
+  }
+
+  .section5 .wrapper .card  h3 
+  {
+    margin: 5px;
+  }
+  
+  .section5 .wrapper .card p
+  {
+    padding: 5px 15px;
+    text-align: justify;
+  }
+}
+
